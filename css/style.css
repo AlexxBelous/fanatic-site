@@ -46,7 +46,26 @@ p {
     justify-content: end;
     padding: 57px 0;
     gap: 100px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    font-family: 'Comfotraa', cursive;
 }
 
+.logo path {
+    transition: all .3s ease;
+}
 
+.logo:hover path {
+    fill: #0093A1;
 
+}
+
+.header__btn {
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    padding: 12px 71px;
+    background-color: #262C27;
+    border: none;
+}
