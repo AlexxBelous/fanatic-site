@@ -38,6 +38,7 @@ p {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    background-position: center;
 }
 
 .header__top {
@@ -68,4 +69,39 @@ p {
     padding: 12px 71px;
     background-color: #262C27;
     border: none;
+}
+
+.header__content {
+    min-height: calc(100vh - 161px);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header__content-box {
+    max-width: 550px;
+    text-align: center;
+    margin-right: 30px;
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+}
+
+.header__title {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-size: 64px;
+    line-height: 71px;
+}
+
+.header__text {
+    font-size: 24px;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+
+.header__decor-text {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
