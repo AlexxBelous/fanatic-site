@@ -29,8 +29,24 @@ p {
 
 .container {
     max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
+.header {
+    background-image: url('/images/header-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.header__top {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 57px 0;
+    gap: 100px;
+}
 
 
 
