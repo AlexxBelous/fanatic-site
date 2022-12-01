@@ -295,7 +295,7 @@ img {
 }
 
 .buy {
-    padding: 150px 0;
+    padding: 150px 0 0;
 }
 
 .buy__inner {
@@ -379,3 +379,4 @@ img {
     border: 2px solid transparent;
     color: #262c27;
 }
+
