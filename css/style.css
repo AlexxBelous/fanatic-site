@@ -45,7 +45,7 @@ img {
 
 .title {
     font-weight: 400;
-    text-transform: 400;
+    text-transform: uppercase;
     font-family: 'Comfortaa', cursive;
     font-size: 60px;
     line-height: 67px;
@@ -253,6 +253,7 @@ img {
     padding-top: 12px;
     display: block;
     color: #fff;
+    
 }
 
 .info__btn {
@@ -503,4 +504,86 @@ img {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.footer {
+    background-color: #262C27;
+    padding: 101px 0 83px;
+    color: #fff;
+}
+
+.footer__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__title {
+    margin-bottom: 27px;
+}
+
+.footer__form {
+    max-width: 500px;
+}
+
+.footer__form-input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, .4);
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 57px;
+    color: #fff;
+}
+
+.footer__form-input::placeholder {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22;
+    opacity: 0.2;
+}
+
+.footer__form-btn {
+    color: #fff;
+    padding: 10px 66px;
+    border: none;
+    margin-bottom: 110px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    color: #000;
+    font-family: 'Comfortaa', cursive;
+    cursor: pointer;
+}
+
+.footer__social-title {
+     margin-bottom: 28px;
+     font-weight: 700;
+}
+
+.footer__gallery {
+    display: grid;
+    gap: 52px;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 50px;
+}
+
+.footer__menu-list {
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__logo {
+    align-self: flex-start;
+}
+
+.footer__logo path {
+    transition: fill .3s;
+
+}
+
+.footer__logo:hover path {
+    fill: #0093A1;
 }
