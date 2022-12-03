@@ -253,7 +253,24 @@ img {
     padding-top: 12px;
     display: block;
     color: #fff;
-    
+    transition: color .3s;
+}
+
+.popup-btn path,
+.popup-btn circle {
+    transition: all .3s;
+} 
+
+.popup-btn:hover path {
+    fill: #B9C400;
+}
+
+.popup-btn:hover circle {
+    stroke: #B9C400;
+}
+
+.popup-btn span:hover {
+    color: #0093A1;
 }
 
 .info__btn {
